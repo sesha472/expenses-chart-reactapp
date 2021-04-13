@@ -1,0 +1,12 @@
+
+.ExpenceDate{
+    background-color: rgb(41, 54, 71);
+    padding:12px;
+    font-size:1.4rem;
+    margin: 3px 5px;
+    border-radius: 20px;
+    border:4px solid  white;
+    /* box-shadow: 1px 30px 60px rgb(17, 17, 24); */
+
+    
+}
