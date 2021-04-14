@@ -3,6 +3,7 @@
 import React from 'react';
 import ExpenceDate from './ExpenceDate';
 import './Expenseitems.css';
+import Card from './Card';
 
  function Expenseitems(props) {
 
@@ -11,23 +12,20 @@ import './Expenseitems.css';
     // const expencetitle="namsthey sesha";
     
     return (
-        <div>
-        <div className="Expenseitems">
+        <Card className="Expenseitems">
           
             <div className="date">
                  <ExpenceDate expencedate={props.expencedate} />
             </div>
 
             <div className="title-prise">
-                
                   <h1 className="title">{props.expencetitle}</h1>
                   <div className="prise">${props.expenceprise}</div>
             </div>
             
             
-        </div>
-            {props.children}
-            </div>
+        
+            </Card>
 
     )
 }
