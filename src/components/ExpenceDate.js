@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Card from './Card';
 
 
 import './ExpenceDate.css';
@@ -8,12 +9,12 @@ import './ExpenceDate.css';
     const date = props.expencedate.toLocaleString('en-US',{day:'2-digit'});
     const year = props.expencedate.getFullYear();
     return (
-        <div className="ExpenceDate">
+        <Card className="ExpenceDate">
              <div>{month}</div>
              <div>{year}</div>
              <div>{date}</div>
             
-        </div>
+        </Card>
     )
 }
 

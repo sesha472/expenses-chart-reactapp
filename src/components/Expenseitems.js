@@ -1,6 +1,6 @@
 
 
-import React from 'react';
+import React,{useState} from 'react';
 import ExpenceDate from './ExpenceDate';
 import './Expenseitems.css';
 import Card from './Card';
@@ -9,8 +9,16 @@ import Card from './Card';
 
     // const expencedate= new Date ();
     // const expenceprise=127.99;
-    // const expencetitle="namsthey sesha";
-    
+    // const expencetitle="namsthey sesha";;
+    const [title, settitle] = useState(props.expencetitle)
+      
+
+   
+    const clicked=()=>{
+        settitle("sesha");
+      console.log(title);
+  
+   }
     return (
         <Card className="Expenseitems">
           
@@ -19,13 +27,16 @@ import Card from './Card';
             </div>
 
             <div className="title-prise">
-                  <h1 className="title">{props.expencetitle}</h1>
+                  <h1 className="title">{title}</h1>
                   <div className="prise">${props.expenceprise}</div>
             </div>
+           
             
+           <button onClick={()=>clicked()}>click</button>
             
         
             </Card>
+            
 
     )
 }

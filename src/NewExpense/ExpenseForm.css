@@ -1,0 +1,122 @@
+
+
+/* 
+
+.new-expense__controls{
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+
+.new-expense__control label{
+  background-color: beige;
+  font-weight: bolder;
+  display: block;
+  margin-bottom: 5px;
+
+}
+.new-expense__control input{
+  width: 300px;
+  max-width: 80%;
+  margin: auto;
+  padding: 10px;
+  border-radius: 4px;
+  border:3px solid blue;
+  outline: none;
+  font-weight: bolder;
+
+
+
+
+} */
+
+
+.new-expense__controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+
+
+}
+.new-expense__control label {
+   display: block;
+   text-align: left;
+   color: black;
+   font-weight: bolder;
+   margin-bottom: 5px;
+   font-size: 1.2rem;
+
+}
+
+.new-expense__control input {
+  width: 300px;
+  max-width: 100%;
+  outline: none;
+  border:none;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: left;
+  font-size: 1.4rem;
+
+}
+
+.new-expense__actions  {
+text-align: right;
+}
+
+.new-expense__actions button {
+padding: 1rem 2rem;
+border-radius: 5px;
+background-color: rgb(26, 151, 201);
+outline: none;
+margin:10px 1rem;
+border:none;
+
+}
+
+
+
+/* 
+ .new-expense__controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  
+  .new-expense__control label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  
+  .new-expense__control input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+  }
+  
+  .new-expense__actions {
+    text-align: right;
+  } 
+
+
+   .new-expense__actions button {
+
+  font: inherit;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border: 1px solid #40005d;
+  background-color: #40005d;
+  color: white;
+  border-radius: 12px;
+  margin-right: 1rem;
+  } */

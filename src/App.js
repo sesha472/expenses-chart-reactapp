@@ -1,18 +1,25 @@
 import './App.css'; 
-import Expenseitems from './components/Expenseitems';
+// import Expenseitems from './components/Expenseitems';
 import Expenses from './components/Expenses';
+import NewExpense from './NewExpense/NewExpense';
 
 function App() {
  const expenses=[
    {date:new Date(2021,2,4),title:"sai1",prise:"183k"},
    {date:new Date(2021,2,4),title:"sai2",prise:"183k"},
-   {date:new Date(2021,2,4),title:"sai3 sai sai sai sai sai sai sai",prise:"183k"},
+   {date:new Date(2021,2,4),title:"sai3 sai ",prise:"183k"},
    {date:new Date(2021,2,4),title:"sai4",prise:"18996k"},
  ]
 
   return (
     <div className="App">
-     <h2>welcome sesha</h2>
+    <br/>
+    <br/>
+
+    <NewExpense/>
+    <br/>
+    <br/>
+    <br/>
      <Expenses expensitemarray={expenses}/>
      {/* <Expenseitems expencedate={expenses[0].date} expencetitle={expenses[0].title } expenceprise={expenses[0].prise}/>
      <Expenseitems expencedate={expenses[1].date} expencetitle={expenses[1].title } expenceprise={expenses[1].prise}/>

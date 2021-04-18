@@ -7,10 +7,11 @@
   justify-content: space-around;
   /* border-radius: 10px; */
   /* box-shadow: 10px 20px 60px rgb(20, 31, 32); */
-  color: rgb(213, 223, 219);
+  color: rgb(19, 41, 41);
 }
 .Expenseitems:hover {
-  background-color: #2d4059;
+  background-color: #d3e71f;
+  color: darkblue;
 
 
 transition-delay: 0.05s;

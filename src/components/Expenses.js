@@ -9,7 +9,7 @@ import Card from './Card';
     return (
         <Card className="Expenses">
 
-{expensarray.map(item=>{
+        {expensarray.map(item=>{
        return(
        <Expenseitems 
        expencedate={item.date}
@@ -17,8 +17,11 @@ import Card from './Card';
        expencetitle={item.title}
        expenceprise={item.prise}
        
-       />);
+       
+       />
+        );
      })}
+     
      </Card>
     );
 }
