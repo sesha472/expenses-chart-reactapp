@@ -12,16 +12,14 @@ padding: 20px;
 
 
 .new-expense {
-background-color: aqua;
-width: 50rem;
-max-width: 80%;
+background-color: rgb(162, 37, 179);
+width: 750px;
+max-width: 70%;
 padding: 10px;
 margin: auto;
 border-radius: 10px;
-box-shadow: 10px 30px 60px black;
-
-
-
+text-align: center;
+box-shadow: 0 1px 8px black;
 }
 
 

@@ -1,40 +1,54 @@
 
 
-/* 
-
-.new-expense__controls{
-  display: flex;
-  gap: 0.5rem;
-  flex-wrap: wrap;
-  text-align: left;
-  margin-bottom: 10px;
-}
+ .new-expense__controls { 
+display: flex;
+flex-wrap: wrap;
+gap:1rem;
 
 
-.new-expense__control label{
-  background-color: beige;
-  font-weight: bolder;
-  display: block;
+ }
+ .new-expense__control label {
+   display: block;
+   text-align: left;
   margin-bottom: 5px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-style: italic;
+font-weight: bolder;
+color: rgb(15, 16, 49);
+
+ }
+
+ .new-expense__control input {
+   font-size: 1.2rem;
+   border-radius: 5px;
+   outline: none;
+   padding: 5px;
+   border:3px solid blue;
+   width: 20rem;
+   max-width: 100%;
+
+ }
+ .new-expense__actions  {
+text-align: right;
 
 }
-.new-expense__control input{
-  width: 300px;
-  max-width: 80%;
-  margin: auto;
-  padding: 10px;
-  border-radius: 4px;
-  border:3px solid blue;
-  outline: none;
+.new-expense__actions button {
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bolder;
+   padding: 10px 25px;
+  background-color: rgb(55, 186, 219);
+  outline: none;
+  border-radius: 3px;
+border:2px solid rgb(15, 15, 22);
+margin:10px 20px;
+box-shadow: 1px 2px 10px black;
 
 
+  }
 
 
-} */
-
-
-.new-expense__controls {
+/* .new-expense__controls {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
@@ -48,21 +62,27 @@
    color: black;
    font-weight: bolder;
    margin-bottom: 5px;
-   font-size: 1.2rem;
+   font-size: 1.4rem;
 
 }
 
 .new-expense__control input {
-  width: 300px;
-  max-width: 100%;
+  width: 230px;
+  max-width: 90%;
   outline: none;
   border:none;
   border-radius: 5px;
-  padding: 5px;
+  padding: 10px;
   text-align: left;
   font-size: 1.4rem;
+  /* font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 20rem;
+  max-width: 100%; */
 
-}
+/* }
 
 .new-expense__actions  {
 text-align: right;
@@ -75,8 +95,7 @@ background-color: rgb(26, 151, 201);
 outline: none;
 margin:10px 1rem;
 border:none;
-
-}
+} */ 
 
 
 

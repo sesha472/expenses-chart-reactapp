@@ -1,0 +1,47 @@
+
+
+
+
+
+
+
+
+
+
+
+
+.expenses-filter-controls{
+    display: flex;
+    justify-content: space-between;
+    margin :2rem 1rem;
+
+
+}
+
+.expenses-filter-controls label{
+   color:rgb(24, 24, 39);
+    font-size: 1.4rem;
+    font-style: italic;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+
+
+}
+
+
+.expenses-filter-controls select{
+    text-align: center;
+    padding: 3px 20px;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    outline: none;
+    border:3px solid blue;
+    background-color: aqua;
+
+
+}
+.expenses-filter-controls option{
+background-color: blanchedalmond;
+padding: 5px 5px;
+border-radius: 10px;
+
+}
